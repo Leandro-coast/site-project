@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,html{ 
+
+background-color: #000;
+color: #ffffff
+}
+a, a:hover, a:visited{
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    height: 220px;
+}
+
+.project-logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-logo img{
+    width: 235px;
+}
